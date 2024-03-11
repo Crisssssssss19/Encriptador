@@ -1,0 +1,10 @@
+@media screen and(max-width: 560px){
+    .contenedor{
+        width: 480px;
+        background: rebeccapurple;
+    }
+    .contendio-principal{
+        display: none;
+    }
+    
+}
