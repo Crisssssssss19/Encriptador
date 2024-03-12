@@ -83,3 +83,16 @@ function descifrar(){
 
 }
 
+function copiar()
+{
+    var text_copy = document.getElementById("encrypted-textarea").value;
+    var temInput = document.createElement("Input");
+    temInput.value = text_copy;
+    document.body.appendChild(temInput);
+    temInput.select();
+    temInput.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+    document.body.removeChild(temInput);
+    alert('Texto copiado al portapapeles: ' + text_copy);
+
+}

@@ -80,11 +80,15 @@
         color: #0A3871;
         font-size: 16px;
         margin: 5px 0;
+        transition: 100ms;
     }
     #encriptar{
         margin-bottom: 24px;
         background: #0A3871;
         color: white;
+    }
+    #encriptar:active, #desencriptar:active,#copia:active{
+        transform: scale(1.10);
     }
     .aside-info{
         display: inline;
@@ -156,8 +160,7 @@
         background-color: white;
     }
     footer{
-        margin: 0 20px;
-
+        margin: 20px 20px;
     }
 
 }
