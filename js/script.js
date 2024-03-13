@@ -9,7 +9,7 @@ function new_content($text){
     const new_info = document.querySelector(".aside-new-info");
     const new_cont = document.getElementById('encrypted-textarea');
     contenido.style.display= "none";
-    new_info.style.display = "inline";
+    new_info.style.display = "flex";
     new_cont.value = $text;
 
 }

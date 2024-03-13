@@ -1,4 +1,4 @@
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 1201px) {
 
     .contenedor{
         background:#F3F5FC;
@@ -49,14 +49,14 @@
         grid-template-columns:auto auto ;
         justify-content: space-between;
     }
-    #encriptar, #desencriptar,#copia{
+    #encriptar, #desencriptar{
         width: 250px;
         height:47px;
         justify-content: center;
         border: 1px solid #0A3871;
         border-radius: 20px;
-        transition: 400ms;
         color: #0A3871;
+        transition: 200ms;
     
     }
     #encriptar{
@@ -67,7 +67,7 @@
     #desencriptar{
         background: #D8DFE8;
     }
-    #encriptar:hover, #desencriptar:hover,#copia:hover{
+    #encriptar:hover, #desencriptar:hover{
         transform: scale(1.15);
     }
     
@@ -92,6 +92,7 @@
     }
     
     .info{
+        display: grid;
         width: auto;
         border:white 1px solid;
         background: white;
@@ -142,7 +143,7 @@
         display: none;
     }
     .new-info textarea{
-        width: 98%;
+        width: 250px;
         margin-top: 1.5em;
         font-size: 24px;
         resize: none;
@@ -152,6 +153,16 @@
     }
     #copia{
         margin-top:40px;
+        width: 250px;
+        height:47px;
+        justify-content: center;
+        border: 1px solid #0A3871;
+        border-radius: 20px;
+        color: #0A3871;
+        transition: 200ms;
+    }
+    #copia:hover{
+        transform: scale(1.15);
     }
     
     footer{
