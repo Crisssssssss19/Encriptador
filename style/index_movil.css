@@ -17,12 +17,15 @@
         display: flex;
         position: relative;
         width: 460px;
-        height: 30px;
+        height: 50px;
+        margin-top: 10px;
 
     }
     main{
         display: grid;
         grid-template-rows: auto auto;
+        justify-content: center;
+        justify-items: center;
         margin: 0 20px;
        
     }
@@ -160,7 +163,39 @@
         background-color: white;
     }
     footer{
-        margin: 20px 20px;
+        width: 480px;
+        padding: 20px;
+        margin: 2em;
+        color:black;
+    }
+    footer hr{
+        border-color: black;
+        margin-bottom: 20px;
+    }
+    .mi-info{
+        display: inline;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+    .mi-info h3{
+        margin: 20px;
+    }
+    .hr-info{
+        width: 40%;
+    }
+    .redes{
+        display: flex;
+        position: relative;
+        width: 98%;
+        justify-content: center;
+    }
+    .redes img{
+        margin: 0 5px;
+        width: 50px;
+        justify-content: center;
+        text-align: center;
+        filter: brightness(100%) invert(0%);
     }
 
 }

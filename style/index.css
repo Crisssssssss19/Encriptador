@@ -8,9 +8,13 @@
     
     }
     header{
+        width: 1200px;
+        margin: 0 auto;
         padding: 1em 0 0 0;
     }
     .caja{
+        width: 1200px;
+        margin: 0 auto;
         display: grid;
         grid-template-columns:70%  25%  ;
         justify-content: center;
@@ -149,11 +153,39 @@
     #copia{
         margin-top:40px;
     }
+    
     footer{
-        width: 100%;
-        height: 300px;
-        background: black;
-        color:#0A3871 ;
+        margin: 2em auto;
+        padding: 20px;
+        color: black;
+    }
+    footer hr{
+        border-color: black;
+        margin-bottom: 20px;
+    }
+    .mi-info{
+        display: inline;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+    .mi-info h3{
+        margin: 20px;
+    }
+    .hr-info{
+        width: 40%;
+    }
+    .redes{
+        display: flex;
+        position: relative;
+        width: 98%;
+        justify-content: center;
+    }
+    .redes img{
+        margin: 0 20px;
+        width: 50px;
+        justify-content: center;
+        text-align: center;
     }
 
 }    
