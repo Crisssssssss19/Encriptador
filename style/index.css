@@ -182,10 +182,14 @@
         justify-content: center;
     }
     .redes img{
-        margin: 0 20px;
+        margin: 0 10px;
         width: 50px;
         justify-content: center;
         text-align: center;
+        transition: 200ms;
+    }
+    .redes img:hover{
+        transform: scale(1.20);
     }
 
 }    
