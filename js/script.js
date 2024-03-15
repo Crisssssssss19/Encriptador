@@ -1,6 +1,5 @@
 
 function obtener_Datos(){
-    console.log("Hola")
    return document.getElementById("texto-usuario").value;
 }
 function new_content($text){
@@ -29,7 +28,6 @@ function cifrar(){
         u:"ufat"
     };
     for(const $letra of $cadena){
-
         if($letra in $tabla_de_encriptacion){
             $cadena_encriptada+=$tabla_de_encriptacion[$letra];
         }else{
@@ -37,7 +35,6 @@ function cifrar(){
         }
     }
 
-  
     if($cadena!= ""){
         new_content($cadena_encriptada);
     }else{
