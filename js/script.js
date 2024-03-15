@@ -46,7 +46,6 @@ function cifrar(){
 function descifrar(){
     let $cadena_decodificada ="";
     let $cadena_codificada=obtener_Datos();
-    console.log($cadena_codificada);
     let $tabla_de_palabras={
         ai:"a",
         enter:"e",
