@@ -4,7 +4,6 @@ function obtener_Datos(){
    return document.getElementById("texto-usuario").value;
 }
 function new_content($text){
-    console.log($text);
     const contenido = document.querySelector(".aside-info");
     const new_info = document.querySelector(".aside-new-info");
     const new_cont = document.getElementById('encrypted-textarea');
