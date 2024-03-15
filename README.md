@@ -6,6 +6,6 @@ Estado del proyecto: `Finalizado`
 >
 > `HTML5`
 >
-> `CSS`
+> `CSS3`
 >
 > `JS`
